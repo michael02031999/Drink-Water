@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish:wght@200;400;600;700&family=Roboto+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(52, 148, 228);
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+#title {
+  margin-top: 20px;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#subtitle {
+  margin-top: 10px;
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+#remainingWater {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 30px;
+  height: 320px;
+  width: 140px;
+  background-color: white;
+  border-radius: 0px 0px 37.5px 37.5px;
+  border-color: rgb(20, 79, 198);
+  border-width: 4.5px;
+  border-style: solid;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;*/
+  overflow: hidden;
+}
+
+#textContainer {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#remainingWaterText {
+  font-size: 20px;
+  color: rgb(20, 79, 198);
+  font-weight: 700;
+}
+
+span {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(20, 79, 198);
+}
+
+#water1 {
+  height: 0%;
+  width: 100%;
+  background-color: rgb(106, 179, 248);
+  display: flex;
+  transition: height 0.25s;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#waterText1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(20, 79, 198);
+}
+
+/*#water2,
+#water3,
+#water4,
+#water5,
+#water6,
+#water7,
+#water8 {
+  height: 12.5%;
+  width: 100%;
+  background-color: rgb(106, 179, 248);
+}*/
+
+#subtitle2 {
+  font-size: 16px;
+  margin-top: 390px;
+  color: white;
+  font-weight: 400;
+}
+
+#miniWaterContainer {
+  position: absolute;
+  left: 50%;
+
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 200px;
+  transform: translate(-56.5%);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-bottom: 100px;
+}
+
+#miniWater1,
+#miniWater2,
+#miniWater3,
+#miniWater4,
+#miniWater5,
+#miniWater6,
+#miniWater7,
+#miniWater8 {
+  height: 87px;
+  width: 42.5px;
+  background-color: rgb(237, 244, 253);
+  border-color: rgb(20, 79, 198);
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 0px 0px 15px 15px;
+}
+
+#spacer {
+  margin-top: 270px;
+}
+
+#miniWater1,
+#miniWater2,
+#miniWater3,
+#miniWater4,
+#miniWater5,
+#miniWater6,
+#miniWater7,
+#miniWater8 {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#miniWaterText1,
+#miniWaterText2,
+#miniWaterText3,
+#miniWaterText4,
+#miniWaterText5,
+#miniWaterText6,
+#miniWaterText7,
+#miniWaterText8 {
+  color: rgb(73, 116, 211);
+  font-size: 14px;
+}
+
+#miniWater1 span,
+#miniWater2 span,
+#miniWater3 span,
+#miniWater4 span,
+#miniWater5 span,
+#miniWater6 span,
+#miniWater7 span,
+#miniWater8 span {
+  color: rgb(20, 79, 198);
+  font-size: 14px;
+}
